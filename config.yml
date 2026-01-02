@@ -1,0 +1,37 @@
+headline: "Distributed systems • Automation • Scalable pipelines"
+skills:
+  - group: "Languages"
+    items: ["Go", "Python", "Bash", "SQL"]
+  - group: "Cloud & Ops"
+    items: ["Docker", "Linux", "GitHub Actions", "Nginx"]
+  - group: "Data & ML"
+    items: ["Pandas", "NumPy", "OpenCV (demos)"]
+  - group: "Databases"
+    items: ["PostgreSQL", "MySQL", "SQLite"]
+projects:
+  - name: "Event-driven pipeline"
+    description: "Composable workers with queue-based orchestration and metrics."
+    tags: ["Go", "Docker", "Queues"]
+    highlights:
+      - "Config-driven workers with retry/backoff"
+      - "Structured logs and lightweight tracing"
+    repo: "https://github.com/example/event-pipeline"
+  - name: "Anonymous system observability"
+    description: "CLI toolkit for status checks and report generation."
+    tags: ["Go", "Monitoring", "CLI"]
+    highlights:
+      - "Readable outputs and clear status badges"
+      - "Plugin-friendly design"
+    repo: "https://github.com/example/observability-cli"
+highlights:
+  - "Built cache-aware CI with reproducible artifacts"
+  - "Optimized legacy services for throughput and latency"
+  - "Produced clean, modular technical reports"
+badges:
+  - label: "Stacks"
+    value: "Go • Python • Bash • SQL"
+  - label: "Focus"
+    value: "Automation • Pipelines • Observability"
+output:
+  title: "Profile overview"
+  include_badges: true
